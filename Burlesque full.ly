@@ -12,7 +12,7 @@
 \include "intro.ly"
 \include "var1.ly"
 \include "var2.ly"
-\include "var3.ly"
+%\include "var3.ly"
 %\include "var4.ly"
 \include "var5.ly"
 %\include "var6.ly"
