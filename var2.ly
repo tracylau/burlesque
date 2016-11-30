@@ -1,6 +1,7 @@
 vartwo-I =
 \relative c''
 {
+\tempo 4=152
 %1 var 2 0:48
 d'8^"arco" (cis d e d c
 b a g fis e d)
@@ -80,7 +81,6 @@ b4 g2
 <<
 \time 3/4
 \new Staff {
-  \tempo 4=152
   \key g \major
   \vartwo-I}
 \new Staff {

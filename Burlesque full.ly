@@ -12,7 +12,7 @@
 \include "intro.ly"
 \include "var1.ly"
 \include "var2.ly"
-%\include "var3.ly"
+\include "var3.ly"
 %\include "var4.ly"
 \include "var5.ly"
 %\include "var6.ly"
@@ -35,20 +35,21 @@
   \intro-I
   \varone-I    % 0:26 pizz theme
   \vartwo-I    % 0:48 scaley arpeggioey slury var
-%  \varthree-I % 1:10 up-bow staccato
-%  \varfour-I  % 1:33 chordy spiccato
+  \varthree-I  % 1:10 up-bow staccato
+%  \varfour-I   % 1:33 chordy spiccato
   \varfive-I   % 2:01 harmonics
-%  \varsix-I   % 2:30 trilly grace notey
-%  \varseven-I % 3:02 ------ chorale attacca
-%  \vareight-I % 3:38 lengthened harmonic
-%  \varnine-I  % 4:03 galloping spiccato attacca
-%  \varten-I   % 4:22 duples/finish
+%  \varsix-I    % 2:30 trilly grace notey
+%  \varseven-I  % 3:02 ------ chorale attacca
+%  \vareight-I  % 3:38 lengthened harmonic
+%  \varnine-I   % 4:03 galloping spiccato attacca
+%  \varten-I    % 4:22 duples/finish
     }
+%{
 \new Staff {
   \intro-II
   \varone-II
   \vartwo-II
-%  \varthree-II
+  \varthree-II
 %  \varfour-II
   \varfive-II
 %  \varsix-II
@@ -61,7 +62,7 @@
   \intro-III
   \varone-III
   \vartwo-III
-%   \varthree-III
+   \varthree-III
 %  \varfour-III
   \varfive-III
 %  \varsix-III
@@ -69,7 +70,7 @@
 %  \vareight-III
 %  \varnine-III
 %  \varten-III
-}
+}%}
 >>
 
 \layout{}
