@@ -43,8 +43,7 @@
 %  \vareight-I  % 3:38 lengthened harmonic
 %  \varnine-I   % 4:03 galloping spiccato attacca
 %  \varten-I    % 4:22 duples/finish
-    }
-%{
+}
 \new Staff {
   \intro-II
   \varone-II
@@ -70,7 +69,7 @@
 %  \vareight-III
 %  \varnine-III
 %  \varten-III
-}%}
+}
 >>
 
 \layout{}
