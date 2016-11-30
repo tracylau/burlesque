@@ -2,6 +2,7 @@ vareight-I =
 \relative c''
 {
 \tempo 4=66
+% TODO this first bit goes on to the end of var7
 \harmonicsOn r4 r g
 
 g4. e'8\staccato (g,\staccato \harmonicsOff <c, f\harmonic>\staccato)
@@ -22,7 +23,10 @@ vareight-II =
 {
 \set Staff.timeSignatureFraction = 9/8
 \scaleDurations 2/3 {
-r4. b8-.\upbow <b b'>-.\upbow <b a'>-.\upbow <b g'>^"sim." <b fis'> <b e>
+\new Voice <<
+  { r4. b8-.\upbow b'-.\upbow a-.\upbow g^"sim." fis e }
+  { r4. s8 b b b b b }
+>>
 
 <d, d'> <d a'> <d b'> <d c'> <d a'> <d b'> <d c'> <d b'> <d a'>
 <d e'> <d d'> <d d'> <d d'> <d b'> <d d'> <d g'> <d d'> <d b'>
@@ -74,5 +78,4 @@ d8 e d cis d c b--\downbow r r
 \layout{}
 \midi {}
 }
-
 %}

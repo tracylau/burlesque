@@ -41,7 +41,7 @@
 %  \varsix-I    % 2:30 trilly grace notey
 %  \varseven-I  % 3:02 ------ chorale attacca
   \vareight-I  % 3:38 lengthened harmonic
-%  \varnine-I   % 4:03 galloping spiccato attacca
+%  \varnine-I   % 4:03 galloping riccochet spiccato attacca
 %  \varten-I    % 4:22 duples/finish
 }
 \new Staff {
