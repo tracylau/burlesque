@@ -11,9 +11,9 @@ b a a a a a a e fis
 g b a g fis a g fis e
 e d d d fis, g gis a c
 b c cis d e fis g a b
-d c b a e g fis e fis
+d c b a e <g c,> <fis c> <e c> <fis c>
 
-g g g g d d d b' b
+<g b,> <g g,> <g g,> <g g,> <d d,> <d d,> <d d,> b' b
 b b b \repeat unfold 3{<b dis,>} \repeat unfold 3{<c dis,>}
 \repeat unfold 6{<c dis,>} \repeat unfold 3{<b dis,>}
 \repeat unfold 6{<b cis,>} \repeat unfold 3{<ais cis,>}
@@ -30,16 +30,22 @@ varseven-II =
 b1 b8
 R1*9/8
 R1*9/8
-cis8 cis cis cis cis cis c c c
+\new Voice<<
+  {cis8 cis cis cis cis cis c c c}
+  {g g g g g e fis g a}
+>>
 
-b b b b b b bes bes bes
-a a a fis d e f fis fis
-R1*9/8
-<d' gis, f>8 d d <c a e> c <b c> <c a> <c g> <c a>
+\repeat unfold 6{<g b>} \repeat unfold 3{<g bes>}
+\new Voice<<
+  {a a a a d, e f fis fis}
+  {fis fis fis fis s s s s s}
+>>
+g g g <g b> \repeat unfold 5{<g d'>}
+\repeat unfold 3{<f d'>} <e c'> <e c'> <e b'> a g a
 
 \new Voice<<
-  {g8 g, g g d' d d r r}
-  {b' c b ais b a g r r}
+  {g8 g, g g s s s r r}
+  {s c' b ais b a g r r}
 >>
 r4. \repeat unfold 3{fis'8} \repeat unfold 3{<g>}
 \repeat unfold 3{<a, g'>8} \repeat unfold 6{<a fis'>}
@@ -56,12 +62,12 @@ varseven-III =
 d1 d8
 R1*9/8
 R1*9/8
-R1*9/8
+\repeat unfold 6{<a a'>8} d d d
 
-R1*9/8
-R1*9/8
-g,8 a bes b b b b b b
-b b b c c c d d d
+\repeat unfold 6{<d d'>} cis cis cis
+\repeat unfold 8{<c d>8} <a d>
+<g d'> <a d> <bes d> \repeat unfold 6{<b d>}
+\repeat unfold 3{<b gis'>} \repeat unfold 3{<c a'>} d d d
 
 d8 e d cis d c b r r
 b2. b4.~
