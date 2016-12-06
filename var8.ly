@@ -2,10 +2,8 @@ vareight-I =
 \relative c''
 {
 \tempo 4=66
-% TODO this first bit goes on to the end of var7
-\harmonicsOn r4 r g
-
-g4. e'8\staccato (g,\staccato \harmonicsOff <c, f\harmonic>\staccato)
+\time 3/4
+\harmonicsOn g4. e'8\staccato (g,\staccato \harmonicsOff <c, f\harmonic>\staccato)
 \harmonicsOn e4 (c ) c
 a' (d,) d
 e4 (c ) c
@@ -23,12 +21,7 @@ vareight-II =
 {
 \set Staff.timeSignatureFraction = 9/8
 \scaleDurations 2/3 {
-\new Voice <<
-  { r4. b8-.\upbow b'-.\upbow a-.\upbow g^"sim." fis e }
-  { r4. s8 b b b b b }
->>
-
-<d, d'> <d a'> <d b'> <d c'> <d a'> <d b'> <d c'> <d b'> <d a'>
+<d, d'>8 <d a'> <d b'> <d c'> <d a'> <d b'> <d c'> <d b'> <d a'>
 <d e'> <d d'> <d d'> <d d'> <d b'> <d d'> <d g'> <d d'> <d b'>
 <d a'> fis g <d a'> <d b'> <d c'> <d c'> <d b'> <d a'>
 <d b'> <b' e> <b fis'> <b g'> <b fis'> <b a'> g' fis e
@@ -45,9 +38,7 @@ vareight-III =
 {
 \set Staff.timeSignatureFraction = 9/8
 \scaleDurations 2/3 {
-r4. \repeat unfold 3{<g d'>8-.\upbow} <g d'>^"sim." <g d'> <g d'>
-
-<g fis'> <g fis'> <g g'> <g a'> <g fis'> <g g'> <g a'> <g g'> <g fis'>
+<g fis'>8 <g fis'> <g g'> <g a'> <g fis'> <g g'> <g a'> <g g'> <g fis'>
 <g c'> <g b'> <g b'> <g b'> <g g'> <g g'> <g b'> <g b'> <g g'>
 <g fis'> <g d'> <g e'> <g fis'> <g g'> <g a'> <g a'> <g g'> <g fis'>
 <g g'> <g d'> <g d'> <g d'> <g d'> <g d'> <cis ais'> <cis ais'> <cis ais'>

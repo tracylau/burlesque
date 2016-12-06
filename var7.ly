@@ -18,18 +18,17 @@ b b b \repeat unfold 3{<b dis,>} \repeat unfold 3{<c dis,>}
 \repeat unfold 6{<c dis,>} \repeat unfold 3{<b dis,>}
 \repeat unfold 6{<b cis,>} \repeat unfold 3{<ais cis,>}
 
-<b b,> % this goes into var8
-
-\bar "||"
+<b b,>4 r8 r4. % this goes into var8
+g,\harmonic
 }
 
 varseven-II =
 \relative c''
 {
 \time 9/8
-b1 b8
-R1*9/8
-R1*9/8
+\repeat unfold 3{<g b>8-- (<g b>-- <g b>--)}
+<fis a>^"sim." \repeat unfold 8{<fis a>}
+g g g g \repeat unfold 5{<g d'>}
 \new Voice<<
   {cis8 cis cis cis cis cis c c c}
   {g g g g g e fis g a}
@@ -51,7 +50,11 @@ r4. \repeat unfold 3{fis'8} \repeat unfold 3{<g>}
 \repeat unfold 3{<a, g'>8} \repeat unfold 6{<a fis'>}
 \repeat unfold 3{<g fis'>} \repeat unfold 3{<g e'>} \repeat unfold 3{<e g>}
 
-<dis fis>
+<dis fis>4 r8
+\new Voice <<
+  { b'8-.\upbow b'-.\upbow a-.\upbow g^"sim." fis e }
+  { s8 b b b b b }
+>>
 
 }
 
@@ -59,10 +62,10 @@ varseven-III =
 \relative c'
 {
 \time 9/8
-d1 d8
-R1*9/8
-R1*9/8
-\repeat unfold 6{<a a'>8} d d d
+\repeat unfold 3{<d d'>8-- (<d d'>-- <d d'>--)}
+<d c'>^"sim." \repeat unfold 8{<d c'>}
+\repeat unfold 9{<d b'>}
+\repeat unfold 6{<a a'>} d d d
 
 \repeat unfold 6{<d d'>} cis cis cis
 \repeat unfold 8{<c d>8} <a d>
@@ -74,10 +77,11 @@ b2. b4.~
 b b2.
 b b4.~
 
-b8--
+b4 r8
+\repeat unfold 3{<g' d'>8-.\upbow} <g d'>^"sim." <g d'> <g d'>
 }
 
-
+%{
 \score
 {
 <<
@@ -96,4 +100,4 @@ b8--
 \midi {}
 }
 
-
+%}
