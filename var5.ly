@@ -22,7 +22,7 @@ g, (e' g, e' g, e')
   <e a\harmonic>\staccato (<d g\harmonic>\staccato <c f\harmonic>\staccato)
 <b e\harmonic>4 (<g c\harmonic>) <g c\harmonic>
 \harmonicsOn d' r b
-\harmonicsOff <g c\harmonic> r r \harmonicsOff
+\harmonicsOff <g c\harmonic> r r
 
 
 \bar "||"

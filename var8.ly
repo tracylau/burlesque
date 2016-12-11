@@ -12,7 +12,7 @@ g'4. e'8\staccato (g,\staccato \harmonicsOff <c, f\harmonic>\staccato)
 \harmonicsOn e4 (c ) c
 a' (d,) d
 c r r
-
+\harmonicsOff
 \bar "||"
 }
 
