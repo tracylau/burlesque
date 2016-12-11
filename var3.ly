@@ -47,7 +47,7 @@ d (g,) fis-. (g-. a-. b-. c-. d-. e-. fis-. g-. a-.
 b8-.) b4 g b8
 a16 (c ) a-. (g-.) fis (a) fis-. (e-.) d8 <a c>
 <g b>16 (d'') b-. (g-. d8-.) r r4
-
+\bar "||"
 }
 
 varthree-III =
@@ -73,8 +73,7 @@ r8 <e g>16\downbow <e g> <d g>8 <cis e>16\downbow <cis e> <d e>8
 r16 g,-. (a-. b-. c-. d-. e-. fis-. g-. a-. b-. c-.)
 d8 d,16-. (d-.) d8 d16-. (d-.) d8 d'
 d16 (b') g-. (d-.) b (g) d-. (b-. g8-.) r
-
-
+\bar "||"
 }
 
 %{

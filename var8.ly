@@ -19,6 +19,7 @@ c r r
 vareight-II =
 \relative c''
 {
+\time 3/4
 \set Staff.timeSignatureFraction = 9/8
 \scaleDurations 2/3 {
 <d, d'>8 <d a'> <d b'> <d c'> <d a'> <d b'> <d c'> <d b'> <d a'>
@@ -30,12 +31,13 @@ d <d, a'> <e c'> fis fis g gis a fis
 <g, g'> <g g'> <g a'> <g ais'> <g ais'> <g ais'> <g b'> <g b'> <g b'>
 <g a'> <g a'> <g a'> <g a'> <g a'> <g a'> <g c'> <g c'> <g c'>
 <g b'>8 <g c'> <g b'> <g ais'> <g b'> <g a'> <g g'>--\downbow r r
-
+\bar "||"
 }}
 
 vareight-III =
 \relative c'
 {
+\time 3/4
 \set Staff.timeSignatureFraction = 9/8
 \scaleDurations 2/3 {
 <g fis'>8 <g fis'> <g g'> <g a'> <g fis'> <g g'> <g a'> <g g'> <g fis'>
@@ -47,6 +49,7 @@ vareight-III =
 <g d'>8 <b d> <c e> <cis e> <cis e> <cis e> <d f> <d f> <d f>
 <cis e> <cis e> <cis e> <c fis> <c fis> <c fis> <a fis'> <a fis'> <a fis'>
 d8 e d cis d c b--\downbow r r
+\bar "||"
 }}
 
 

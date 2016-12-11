@@ -22,7 +22,8 @@ g4. (fis8 g e
 d c b a g f)
 e (b d c b a)
 g2 r4
-\bar "||"}
+\bar "||"
+}
 
 vartwo-II =
 \relative c'''
@@ -52,6 +53,7 @@ d (cis d ees d b
 a g fis e d c)
 b4 a fis
 d2 r4
+\bar "||"
 }
 
 
@@ -78,6 +80,7 @@ b (ais b c b g
 fis e d c b a)
 gis4 f8 (e d c)
 b4 g2
+\bar "||"
 }
 
 %{

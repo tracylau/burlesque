@@ -23,8 +23,6 @@ g, (e' g, e' g, e')
 <b e\harmonic>4 (<g c\harmonic>) <g c\harmonic>
 \harmonicsOn d' r b
 \harmonicsOff <g c\harmonic> r r
-
-
 \bar "||"
 }
 
@@ -53,6 +51,7 @@ c,4 r r
 \harmonicsOff <g, c\harmonic>4 r r
 \harmonicsOn b r g
 \harmonicsOff <g c\harmonic> r r
+\bar "||"
 }
 
 varfive-III =
@@ -77,6 +76,7 @@ c2.
 R2.
 \harmonicsOff d8 (cis d) e\staccato (d\staccato c\staccato)
 b4 (g) g
+\bar "||"
 }
 
 %{

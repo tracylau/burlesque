@@ -52,6 +52,7 @@ b'4. c8 b a
 g8 d b d b d
 c d <a fis'> d <a fis'> d
 <g, d' b'>4 r r
+\bar "||"
 }
 
 
@@ -81,7 +82,7 @@ b' g g
 b4 g g
 a <c, d> <c d>
 <b g'> g r
-
+\bar "||"
 }
 
 

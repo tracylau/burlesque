@@ -15,7 +15,7 @@
 \include "var3.ly"
 %\include "var4.ly"
 \include "var5.ly"
-%\include "var6.ly"
+\include "var6.ly"
 \include "var7.ly"
 \include "var8.ly"
 \include "var9.ly"
@@ -38,7 +38,7 @@
   \varthree-I  % 1:10 up-bow staccato
 %  \varfour-I   % 1:33 chordy spiccato
   \varfive-I   % 2:01 harmonics
-%  \varsix-I    % 2:30 trilly grace notey
+  \varsix-I    % 2:30 trilly grace notey
   \varseven-I  % 3:02 ------ chorale attacca
   \vareight-I  % 3:38 lengthened harmonic
   \varnine-I   % 4:03 galloping riccochet spiccato attacca
@@ -51,7 +51,7 @@
   \varthree-II
 %  \varfour-II
   \varfive-II
-%  \varsix-II
+  \varsix-II
   \varseven-II
   \vareight-II
   \varnine-II
@@ -64,7 +64,7 @@
    \varthree-III
 %  \varfour-III
   \varfive-III
-%  \varsix-III
+  \varsix-III
   \varseven-III
   \vareight-III
   \varnine-III
