@@ -1,7 +1,6 @@
 varone-I =
 \relative c''
 {
-%1 0:26
 \tempo 4=138
 \time 3/4
 d4.^"pizz." e8 d c
@@ -30,7 +29,7 @@ g r r
 varone-II =
 \relative c''
 {
-%2 0:26
+\tempo 4=138
 \time 3/4
 b4.^"pizz." c8 b a
 g8 d b d b d
@@ -60,7 +59,7 @@ c d <a fis'> d <a fis'> d
 varone-III =
 \relative c'
 {
-%3 0:26
+\tempo 4=138
 \time 3/4
 g8^"pizz." d' b' r r4
 d,8 b g b g b

@@ -26,6 +26,7 @@ g8 \ottava #0 d,,16^"ord." d cis cis d d e e d d
 varnine-II =
 \relative c'''
 {
+\tempo 4=144
 b8-. ais16-. (ais-.) b8-. c16-. (c-.) b8-. a16-. (a-.)
 g4-. d-. d-.
 d8-. d,16 (e) fis-. g-. a-. b-. c-. d-. e-. fis-.
@@ -51,6 +52,7 @@ d8 \ottava #0 b,,16^"ord." b ais ais b b c c b b
 varnine-III =
 \relative c'''
 {
+\tempo 4=144
 g8-. g16-. (g-.) g8-. g16-. (g-.) g8-. fis16-. (fis-.)
 g8-. g,,16 (a) b-. c-. d-. e-. fis-. g-. a-. b-.
 c4-. <d, c'>-. <d c'>-.

@@ -19,6 +19,7 @@ c r r
 vareight-II =
 \relative c''
 {
+\tempo 4.=66
 \time 3/4
 \set Staff.timeSignatureFraction = 9/8
 \scaleDurations 2/3 {
@@ -37,6 +38,7 @@ d <d, a'> <e c'> fis fis g gis a fis
 vareight-III =
 \relative c'
 {
+\tempo 4.=66
 \time 3/4
 \set Staff.timeSignatureFraction = 9/8
 \scaleDurations 2/3 {

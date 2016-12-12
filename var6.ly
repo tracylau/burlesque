@@ -1,7 +1,7 @@
 varsix-I =
 \relative c'''
 {
-  \tempo 4=96
+\tempo 4=96
 d8.\trill (cis16 d8) \acciaccatura d16 g8 \acciaccatura d16 g8
   \acciaccatura d16 g8
 b,8.\trill (ais16 b8) \acciaccatura b16 d8 \acciaccatura b16 d8
@@ -36,6 +36,7 @@ g,16 (g'8.) \ottava #0 r4 r4
 varsix-II =
 \relative c'''
 {
+\tempo 4=96
 b8.\trill (ais16 b8) \acciaccatura b16 d8 \acciaccatura b16 d8
   \acciaccatura b16 d8
 g,8.\trill (fis16 g8) \acciaccatura g16 b8 \acciaccatura g16 b8
@@ -73,6 +74,7 @@ d,4 \ottava #0 g,16 (<g c\harmonic>8.) r4
 varsix-III =
 \relative c'''
 {
+\tempo 4=96
 <g b, d, g,>8.\trill (fis16 g8) \acciaccatura g16 b8 \acciaccatura g16 b8
   \acciaccatura g16 b8
 <d, d,>8.\trill (cis16 d8) \acciaccatura d16 g8 \acciaccatura d16 g8

@@ -1,7 +1,7 @@
 varseven-I =
 \relative c''
 {
-  \tempo 4.=66
+\tempo 4.=66
 \time 9/8  % video 3:56
 b8-- (b'-- a--) g-- (fis-- a--) g-- (fis-- e--)
 e^"sim. i.e. I'm done typing" d d d d d d cis d
@@ -25,6 +25,7 @@ g,\harmonic
 varseven-II =
 \relative c''
 {
+\tempo 4.=66
 \time 9/8
 \repeat unfold 3{<g b>8-- (<g b>-- <g b>--)}
 <fis a>^"sim." \repeat unfold 8{<fis a>}
@@ -61,6 +62,7 @@ r4. \repeat unfold 3{fis'8} \repeat unfold 3{<g>}
 varseven-III =
 \relative c'
 {
+\tempo 4.=66
 \time 9/8
 \repeat unfold 3{<d d'>8-- (<d d'>-- <d d'>--)}
 <d c'>^"sim." \repeat unfold 8{<d c'>}

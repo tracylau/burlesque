@@ -28,7 +28,7 @@ g2 r4
 vartwo-II =
 \relative c'''
 {
-%2
+\tempo 4=152
 b8^"arco" (ais b c b a
 g fis e d c b)
 g (fis e g fis e
@@ -61,6 +61,7 @@ d2 r4
 vartwo-III =
 \relative c'''
 {
+\tempo 4=152
 g4.^"arco" (fis8 g e
 d c b a g fis)
 e (d c e d c

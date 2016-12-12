@@ -26,6 +26,7 @@ bes' bes16 bes bes8 bes bes g bes g
 intro-II =
 \relative c'
 {
+\tempo 2=84
 \key g \major
 \time 4/4
 
@@ -51,6 +52,7 @@ g' g16 g g8 g g ees g ees
 
 intro-III = \relative c'
 {
+\tempo 2=84
 \key g \major
 \time 4/4
 
