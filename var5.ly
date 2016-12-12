@@ -13,12 +13,12 @@ g4. e'8\staccato (g,\staccato \harmonicsOff <c, f\harmonic>\staccato)
 a' (d, ) d
 c r r
 
-g'8\staccato e'\staccato g,\staccato e'\staccato g,\staccato e'\staccato
-g,\staccato e'\staccato g,\staccato e'\staccato g,\staccato e'\staccato
-g, (e' g, e' g, e')
-g, (e' g, e' g, e')
+\repeat unfold 6 {g'16\staccato e'\staccato}
+\repeat unfold 6 {g,16\staccato e'\staccato}
+g, (e' \repeat unfold 4 {g, e'} g, e')
+g, (e' \repeat unfold 4 {g, e'} g, e')
 
-\harmonicsOff <d g\harmonic> (<cis fis\harmonic> <d g\harmonic>)
+\harmonicsOff <d g\harmonic>8 (<cis fis\harmonic> <d g\harmonic>)
   <e a\harmonic>\staccato (<d g\harmonic>\staccato <c f\harmonic>\staccato)
 <b e\harmonic>4 (<g c\harmonic>) <g c\harmonic>
 \harmonicsOn d' r b
@@ -29,6 +29,7 @@ g, (e' g, e' g, e')
 varfive-II =
 \relative c'''
 {
+\tempo 4=116
 \harmonicsOff e,,4.\harmonic \harmonicsOff <c f\harmonic>8\staccato
   (\harmonicsOn e\staccato a\staccato)
 c,4 r r
@@ -57,6 +58,7 @@ c,4 r r
 varfive-III =
 \relative c'
 {
+\tempo 4=116
 R2.
 R2.
 \harmonicsOn d4 r r
