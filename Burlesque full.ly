@@ -19,7 +19,7 @@
 \include "var7.ly"
 \include "var8.ly"
 \include "var9.ly"
-%\include "var10.ly"
+\include "var10.ly"
 
 
 
@@ -42,7 +42,7 @@
   \varseven-I  % 3:02 ------ chorale attacca
   \vareight-I  % 3:38 lengthened harmonic
   \varnine-I   % 4:03 galloping riccochet spiccato attacca
-%  \varten-I    % 4:22 duples/finish
+  \varten-I    % 4:22 duples/finish
 }
 \new Staff {
   \intro-II
@@ -55,7 +55,7 @@
   \varseven-II
   \vareight-II
   \varnine-II
-%  \varten-II
+  \varten-II
 }
 \new Staff {
   \intro-III
@@ -68,7 +68,7 @@
   \varseven-III
   \vareight-III
   \varnine-III
-%  \varten-III
+  \varten-III
 }
 >>
 

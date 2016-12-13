@@ -47,7 +47,7 @@ g g g
 d d d
 <g, d'> r r
 
-b'4. c8 b a
+<b' d, g,>4. c8 b a
 g8 d b d b d
 c d <a fis'> d <a fis'> d
 <g, d' b'>4 r r
@@ -71,13 +71,12 @@ d,8 b g b g b
 d c a c a c
 b d g, b d g
 
-%3 0:36
 a4 d, d
 b' g g
 a d, d
 b' g g
 
-<g, d' d'>8 d' b' e d c
+d'8 d, b' e d c
 b4 g g
 a <c, d> <c d>
 <b g'> g r
