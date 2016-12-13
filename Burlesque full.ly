@@ -35,40 +35,40 @@
   \intro-I
   \varone-I    % 0:26 pizz theme
   \vartwo-I    % 0:48 scaley arpeggioey slury var
-  \varthree-I  % 1:10 up-bow staccato
-%  \varfour-I   % 1:33 chordy spiccato
-  \varfive-I   % 2:01 harmonics
-  \varsix-I    % 2:30 trilly grace notey
-  \varseven-I  % 3:02 ------ chorale attacca
-  \vareight-I  % 3:38 lengthened harmonic
-  \varnine-I   % 4:03 galloping riccochet spiccato attacca
-  \varten-I    % 4:22 duples/finish
+  \varthree-III  % 1:10 up-bow staccato
+%  \varfour-III   % 1:33 chordy spiccato
+  \varfive-III   % 2:01 harmonics
+  \varsix-III    % 2:30 trilly grace notey
+  \varseven-II  % 3:02 ------ chorale attacca
+  \vareight-II  % 3:38 lengthened harmonic
+  \varnine-II   % 4:03 galloping riccochet spiccato attacca
+  \varten-II    % 4:22 duples/finish
 }
 \new Staff {
   \intro-II
   \varone-II
   \vartwo-II
-  \varthree-II
-%  \varfour-II
-  \varfive-II
-  \varsix-II
-  \varseven-II
-  \vareight-II
-  \varnine-II
-  \varten-II
+  \varthree-I
+%  \varfour-I
+  \varfive-I
+  \varsix-I
+  \varseven-III
+  \vareight-III
+  \varnine-III
+  \varten-III
 }
 \new Staff {
   \intro-III
   \varone-III
   \vartwo-III
-   \varthree-III
-%  \varfour-III
-  \varfive-III
-  \varsix-III
-  \varseven-III
-  \vareight-III
-  \varnine-III
-  \varten-III
+   \varthree-II
+%  \varfour-II
+  \varfive-II
+  \varsix-II
+  \varseven-I
+  \vareight-I
+  \varnine-I
+  \varten-I
 }
 >>
 
