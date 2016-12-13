@@ -4,7 +4,7 @@
 
 \paper {
   #(define dump-extents #t)
-  linewidth = 160\mm - 2.0 * 0.4\in
+  #(set-paper-size "letter")
   raggedright = ##t
   indent = 0\mm
 }
@@ -31,43 +31,44 @@
 
 \score{
 <<
+\set Score.markFormatter = #format-mark-box-alphabet
 \new Staff {
   \intro-I
-  \varone-I    % 0:26 pizz theme
-  \vartwo-I    % 0:48 scaley arpeggioey slury var
-  \varthree-III  % 1:10 up-bow staccato
+  \mark \default \varone-I    % 0:26 pizz theme
+  \mark \default \vartwo-I    % 0:48 scaley arpeggioey slury var
+  \mark \default \varthree-III  % 1:10 up-bow staccato
 %  \varfour-III   % 1:33 chordy spiccato
-  \varfive-III   % 2:01 harmonics
-  \varsix-III    % 2:30 trilly grace notey
-  \varseven-II  % 3:02 ------ chorale attacca
+  \mark \default \varfive-III   % 2:01 harmonics
+  \mark \default \varsix-III    % 2:30 trilly grace notey
+  \mark \default \varseven-II  % 3:02 ------ chorale attacca
   \vareight-II  % 3:38 lengthened harmonic
-  \varnine-II   % 4:03 galloping riccochet spiccato attacca
+  \mark \default \varnine-II   % 4:03 galloping riccochet spiccato attacca
   \varten-II    % 4:22 duples/finish
 }
 \new Staff {
   \intro-II
-  \varone-II
-  \vartwo-II
-  \varthree-I
+  \mark \default \varone-II
+  \mark \default \vartwo-II
+  \mark \default \varthree-I
 %  \varfour-I
-  \varfive-I
-  \varsix-I
-  \varseven-III
+  \mark \default \varfive-I
+  \mark \default \varsix-I
+  \mark \default \varseven-III
   \vareight-III
-  \varnine-III
+  \mark \default \varnine-III
   \varten-III
 }
 \new Staff {
   \intro-III
-  \varone-III
-  \vartwo-III
-   \varthree-II
+  \mark \default \varone-III
+  \mark \default \vartwo-III
+  \mark \default \varthree-II
 %  \varfour-II
-  \varfive-II
-  \varsix-II
-  \varseven-I
+  \mark \default \varfive-II
+  \mark \default \varsix-II
+  \mark \default \varseven-I
   \vareight-I
-  \varnine-I
+  \mark \default \varnine-I
   \varten-I
 }
 >>
