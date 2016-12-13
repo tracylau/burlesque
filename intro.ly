@@ -19,6 +19,8 @@ bes' bes16 bes bes8 bes bes g bes g
 <cis a'> <cis a'>16 <cis a'> <cis a'>8 <cis a'> <cis a'> <cis a'> <cis a'> <cis a'>
 <d fis>4 r8. <a a'>16 <a a'>4 r8. <a c'>16
 <a c'>2 r\fermata
+
+\markLengthOn
 \bar "||"
 }
 
@@ -44,6 +46,8 @@ g' g16 g g8 g g ees g ees
 <e a> <e a>16 <e a> <e a>8 <e a> <e a> <e a> <e a> <e a>
 <fis a>4 r8. <d' fis>16 <d fis>4 r8. <fis a>16
 <fis a>2 r\fermata
+
+\markLengthOn
 \bar "||"
 }
 
@@ -70,7 +74,7 @@ ees8 ees16 ees ees8 ees ees bes ees bes
 <a g'> <a g'>16 <a g'> <a g'>8 <a g'> <a g'> <a g'> <a g'> <a g'> 
 d4 r8. <d a'>16 <d a'>4 r8. <d a'>16
 <d a'>2 r\fermata
+
+\markLengthOn
 \bar "||"
-
-
 }
